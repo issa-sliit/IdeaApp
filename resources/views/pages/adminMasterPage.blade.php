@@ -121,6 +121,7 @@
                                         </a>
                                     </li><!-- end task item -->
                                 </ul>
+
                             </li>
                             <li class="footer">
                                 <a href="#">View all tasks</a>
