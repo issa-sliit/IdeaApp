@@ -191,5 +191,6 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Node.js v4.4.1 Core Modules" level="application" />
   </component>
 </module>
