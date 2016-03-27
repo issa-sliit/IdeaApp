@@ -14,21 +14,17 @@
     <!-- Bootstrap 3.3.5 -->
     <link rel="stylesheet" href="{{asset('/admin/bootstrap/css/bootstrap.min.css')}}">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{asset('/admin/dist/css/font-awesome.min.css')}}">
-
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Ionicons -->
-    <link rel="stylesheet" href="{{asset('/admin/dist/css/ionicons.min.css')}}">
-
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{asset('admin/dist/css/AdminLTE.min.css')}}">
 
     <link rel="stylesheet" href="{{asset('admin/dist/css/skins/_all-skins.min.css')}}">
     @show
 
-    <script src="{{asset('/admin/dist/js/html5shiv.min.js')}}"></script>
-
-    <script src="{{asset('/admin/dist/js/respond.min.js')}}"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
@@ -135,24 +131,21 @@
                             </li>
                         </ul>
                     </li>
-
-
                     <!-- User Account: style can be found in dropdown.less -->
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <img src="{{('admin/dist/img/user2-160x160.jpg')}}" class="user-image" alt="User Image">
-                            <span class="hidden-xs">Student 1</span>
+                            <span class="hidden-xs">Alexander Pierce</span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- User image -->
                             <li class="user-header">
                                 <img src="{{('admin/dist/img/user2-160x160.jpg')}}" class="img-circle" alt="User Image">
                                 <p>
-                                    Student 1 - Web Developer
+                                    Alexander Pierce - Web Developer
                                     <small>Member since Nov. 2012</small>
                                 </p>
                             </li>
-
                             <!-- Menu Body -->
                             <li class="user-body">
                                 <div class="col-xs-4 text-center">
@@ -378,20 +371,6 @@
 
     <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
-        <!-- Create the tabs -->
-        <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
-            <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
-
-            <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
-        </ul>
-        <!-- Tab panes -->
-        <div class="tab-content">
-            <!-- Home tab content -->
-            <div class="tab-pane" id="control-sidebar-home-tab">
-                <h3 class="control-sidebar-heading">Recent Activity</h3>
-                <ul class="control-sidebar-menu">
-                    <li>
-                        <a href="javascript::;">
                             <i class="menu-icon fa fa-birthday-cake bg-red"></i>
                             <div class="menu-info">
                                 <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
