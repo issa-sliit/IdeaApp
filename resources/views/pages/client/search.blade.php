@@ -1,7 +1,7 @@
 @extends('pages.adminMasterPage')
 
 @section('styleSheets')
-    <link rel="stylesheet" href="{{asset('admin/dist/css/skins/search.css')}}">
+    <link rel="stylesheet" href="{{asset('admin/dist/css/search.css')}}">
 @stop
 
 @section('CONTENT_HEADER')
