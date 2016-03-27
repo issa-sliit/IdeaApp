@@ -8,6 +8,9 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
     @section('CSS_REF')
+
+
+            @yield('styleSheets')
     <!-- Bootstrap 3.3.5 -->
     <link rel="stylesheet" href="{{asset('/admin/bootstrap/css/bootstrap.min.css')}}">
     <!-- Font Awesome -->
@@ -128,21 +131,24 @@
                             </li>
                         </ul>
                     </li>
+
+
                     <!-- User Account: style can be found in dropdown.less -->
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <img src="{{('admin/dist/img/user2-160x160.jpg')}}" class="user-image" alt="User Image">
-                            <span class="hidden-xs">Alexander Pierce</span>
+                            <span class="hidden-xs">Student 1</span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- User image -->
                             <li class="user-header">
                                 <img src="{{('admin/dist/img/user2-160x160.jpg')}}" class="img-circle" alt="User Image">
                                 <p>
-                                    Alexander Pierce - Web Developer
+                                    Student 1 - Web Developer
                                     <small>Member since Nov. 2012</small>
                                 </p>
                             </li>
+
                             <!-- Menu Body -->
                             <li class="user-body">
                                 <div class="col-xs-4 text-center">
@@ -175,7 +181,7 @@
         </nav>
     </header>
 
-    <!-- =============================================== -->
+
 
     <!-- Left side column. contains the sidebar -->
     <aside class="main-sidebar">
@@ -187,21 +193,20 @@
                     <img src="{{('admin/dist/img/user2-160x160.jpg')}}" class="img-circle" alt="User Image">
                 </div>
                 <div class="pull-left info">
-                    <p>Alexander Pierce</p>
+                    <p>Student 1</p>
                     <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
                 </div>
             </div>
             <!-- search form -->
             <form action="#" method="get" class="sidebar-form">
                 <div class="input-group">
-                    <input type="text" name="q" class="form-control" placeholder="Search...">
+                    <input type="text" name="q" class="form-control" placeholder="Search for posts">
               <span class="input-group-btn">
                 <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
               </span>
                 </div>
             </form>
-            <!-- /.search form -->
-            <!-- sidebar menu: : style can be found in sidebar.less -->
+
             <ul class="sidebar-menu">
                 <li class="header">MAIN NAVIGATION</li>
                 <li class="treeview">
@@ -356,24 +361,6 @@
         <section class="content">
             @yield('CONTENT')
 
-            {{--customizable content--}}
-
-            {{--<!-- Default box -->--}}
-            {{--<div class="box">--}}
-                {{--<div class="box-header with-border">--}}
-                    {{--<h3 class="box-title">Title</h3>--}}
-                    {{--<div class="box-tools pull-right">--}}
-                        {{--<button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>--}}
-                        {{--<button class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="box-body">--}}
-                    {{--Start creating your amazing application!--}}
-                {{--</div><!-- /.box-body -->--}}
-                {{--<div class="box-footer">--}}
-                    {{--Footer--}}
-                {{--</div><!-- /.box-footer-->--}}
-            {{--</div><!-- /.box -->--}}
 
         </section><!-- /.content -->
     </div><!-- /.content-wrapper -->
@@ -382,7 +369,7 @@
         <div class="pull-right hidden-xs">
             <b>Version</b> 2.3.0
         </div>
-        <strong>Copyright &copy; 2014-2015 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights reserved.
+        <strong>PDM-project </strong> All rights reserved.
     </footer>
 
     <!-- Control Sidebar -->
@@ -554,17 +541,17 @@
 </div><!-- ./wrapper -->
 @section('JS_REF')
 <!-- jQuery 2.1.4 -->
-<script src="{{asset('admin/plugins/jQuery/jQuery-2.1.4.min.js')}}"></script>
+<script src="{{asset('/admin/plugins/jQuery/jQuery-2.1.4.min.js')}}"></script>
 <!-- Bootstrap 3.3.5 -->
-<script src="{{asset('admin/bootstrap/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('/admin/bootstrap/js/bootstrap.min.js')}}"></script>
 <!-- SlimScroll -->
-<script src="{{asset('admin/plugins/slimScroll/jquery.slimscroll.min.js')}}"></script>
+<script src="{{asset('/admin/plugins/slimScroll/jquery.slimscroll.min.js')}}"></script>
 <!-- FastClick -->
-<script src="{{asset('admin/plugins/fastclick/fastclick.min.js')}}"></script>
+<script src="{{asset('/admin/plugins/fastclick/fastclick.min.js')}}"></script>
 <!-- AdminLTE App -->
-<script src="{{asset('admin/dist/js/app.min.js')}}"></script>
+<script src="{{asset('/admin/dist/js/app.min.js')}}"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="{{asset('admin/dist/js/demo.js')}}"></script>
+<script src="{{asset('/admin/dist/js/demo.js')}}"></script>
 @show
 </body>
 </html>
