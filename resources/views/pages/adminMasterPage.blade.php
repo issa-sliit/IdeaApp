@@ -26,9 +26,9 @@
     <link rel="stylesheet" href="{{asset('admin/dist/css/skins/_all-skins.min.css')}}">
     @show
 
-    <script src="/admin/dist/js/html5shiv.min.js"></script>
+    <script src="{{asset('/admin/dist/js/html5shiv.min.js')}}"></script>
 
-    <script src="/admin/dist/js/respond.min.js"></script>
+    <script src="{{asset('/admin/dist/js/respond.min.js')}}"></script>
     <![endif]-->
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
